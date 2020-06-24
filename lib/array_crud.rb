@@ -3,17 +3,17 @@ def create_an_empty_array
 end
 
 def create_an_array 
-  evelution= ["Dogs", "Cats", "Wolf", "Lion"]
+  evelution = ["Dogs", "Cats", "Wolf", "Lion"]
   
 end
 
 def add_element_to_end_of_array(array, element)
-  evelution01= ["Dogs", "Cats"]
+  evelution01 = ["Dogs", "Cats"]
   evelution << "Worlf"
 end
 
 def add_element_to_start_of_array(array, element) 
-  evelution12= ["Cats", "Worlf"]
+  evelution12 = ["Cats", "Worlf"]
   evelution12.unshift("Dogs")
 end
 
