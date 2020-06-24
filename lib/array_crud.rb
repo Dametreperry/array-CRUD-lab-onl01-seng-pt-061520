@@ -3,7 +3,7 @@ def create_an_empty_array
 end
 
 def create_an_array 
-  animals = ["Dogs", "Cats", "Wolf", "Lion"]
+  array = ["Dogs", "Cats", "Wolf", "Lion"]
   
 end
 
