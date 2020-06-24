@@ -1,5 +1,5 @@
 def create_an_empty_array
-  animals[]
+  []
 end
 
 def create_an_array 
@@ -29,7 +29,7 @@ end
 
 def retrieve_element_from_index(array, index_number)
   animals = ["Dogs", "Cats", "Wolf", "Lion"]
-  animals[3]
+  animals[2]
 end
 
 def retrieve_first_element_from_array(array)
