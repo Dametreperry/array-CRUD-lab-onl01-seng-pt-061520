@@ -2,27 +2,30 @@ def create_an_empty_array
   []
 end
 
-def create_an_array = ["Dogs", "Cats", "Wolf", "Lion"]
+def create_an_array 
+  evelution= ["Dogs", "Cats", "Wolf", "Lion"]
   
 end
 
-def add_element_to_end_of_array(array, element) = ["Dogs", "Cats"]
-  add_element_to_end_of_array << "Worlf"
+def add_element_to_end_of_array(array, element)
+  evelution01= ["Dogs", "Cats"]
+  evelution << "Worlf"
 end
 
-def add_element_to_start_of_array(array, element) = ["Cats", "Worlf"]
-  add_element_to_start_of_array.unshift("Dogs")
+def add_element_to_start_of_array(array, element) 
+  evelution12= ["Cats", "Worlf"]
+  evelution12.unshift("Dogs")
 end
 
 def remove_element_from_end_of_array(array)
-  create_an_array.pop
+  evelution.pop
 end
 
 def remove_element_from_start_of_array(array)
   create_an_array.shift
 end
 
-def retrieve_element_from_index(array, index_number)
+def retrieve_element_from_index(array, index_number) =
   
 end
 
