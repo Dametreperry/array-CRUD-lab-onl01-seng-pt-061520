@@ -7,11 +7,11 @@ def create_an_array = ["Dogs", "Cats", "Wolf", "Lion"]
 end
 
 def add_element_to_end_of_array(array, element) = ["Dogs", "Cats"]
-  add_element_to_end_of_array << 
+  add_element_to_end_of_array << "Worlf"
 end
 
-def add_element_to_start_of_array(array, element) 
-  
+def add_element_to_start_of_array(array, element) = ["Cats", "Worlf"]
+  add_element_to_start_of_array
 end
 
 def remove_element_from_end_of_array(array)
